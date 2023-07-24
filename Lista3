@@ -1,0 +1,74 @@
+# Questao 1
+"""N1 = float(input("Digite um numero: "))
+N2 = float(input("Digite outro: "))
+
+if N1 == N2:
+    print("True")
+
+# Questao 2
+if N1 > N2:
+    print("False")
+
+#  Questão 3
+if N1 < N2:
+    print("True")
+
+# Questão 4
+if N1 >= N2:
+    print("False")
+
+# Questão 5
+if N1 <= N2:
+    print("True")
+# 
+"""
+"""""
+# Questao 6
+nome = str(input("Qual seu nome : "))
+senha = int(input("Crie uma senha: "))
+NewSenha = int(input("Digite a senha novamente: "))
+
+if senha == NewSenha:
+    print("Senha correta! O cadastro foi realizado.")
+else:
+    print("Senha Incorreta! Cadastro Cancelado.")
+"""
+""""
+# Questao 7
+cliente = str(input("Qual seu nome : "))
+TipoCompra = int(input("A compra sera á vista: \n1 - SIM \n2 - NÂO \n"))
+
+if TipoCompra == SIM:
+    print("OK!")
+    Anuidade = int(input("Sua anuidade em dia: \n1 - SIM \n2 - NÂO \n"))
+    if Anuidade == SIM:
+        print("OK!",cliente,"Compra Concluida.")
+else:
+    print("Compra Cancelada!")
+"""
+# Questão 8 
+"""""
+usuario = str(input("Ola, me diga seu nome: "))
+BS = int(input("Você recebe bolsa familia \n1- Sim  \n2 - Não \n"))
+if BS == 1:
+    print("OK!")
+    QntFilhos = int(input("Você tem MAIS de 3 FILHOS \n1 - Sim \n2 - Não \n"))
+    if QntFilhos == 1:
+        print(usuario,", Você pode ingressar como cotista!")
+else:
+    print("Negado!")
+"""
+# Questão 9
+"""""
+entrada = int(input("Você está com a Anuidade em dia \n1 - Sim \n2 - Não \n"))
+if entrada == 1:
+    print("OK! pode entrar.")
+elif entrada == 2:
+    pagar = int(input("Você pretende pagar os 25 reais ? \n1 - Sim \n2 - Nao \n"))
+    if pagar == 1:
+        print("Entrada liberada!")
+    else:
+        print("Adeus!")
+else:
+    print("Recusado!")
+"""
