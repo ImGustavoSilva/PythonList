@@ -1,0 +1,12 @@
+# 3 Questão
+nome = str(input("Me diga o seu nome: \n"))
+idade = int(input("Me diga a sua idade: \n"))
+
+print("Ola,",nome,". Você terá", idade + 10, "anos daqui a 10 anos.")
+
+# 4 Questao
+nome = str(input("Me diga o seu nome: \n"))
+DataNascimento = int(input("Me diga a Data em que você nasceu: \n"))
+idade = 2023 - DataNascimento
+
+print("Ola,",nome,"hoje você tem", idade,"anos" )
