@@ -1,12 +1,98 @@
-# 3 Questão
-nome = str(input("Me diga o seu nome: \n"))
-idade = int(input("Me diga a sua idade: \n"))
+# Q1. Faça um algoritmo que lê dois números, e verifica se os dois números são iguais. Se forem iguais, escrever "São iguais", se não, escrever "Não são iguais".
 
-print("Ola,",nome,". Você terá", idade + 10, "anos daqui a 10 anos.")
+# n1 = int(input("Digite um numero: "))
+# n2 = int(input("Digite um numero: "))
+# if n1 == n2:
+#     print("são iguais!")
+# else:
+#     print("São diferentes!")
 
-# 4 Questao
-nome = str(input("Me diga o seu nome: \n"))
-DataNascimento = int(input("Me diga a Data em que você nasceu: \n"))
-idade = 2023 - DataNascimento
 
-print("Ola,",nome,"hoje você tem", idade,"anos" )
+# Q2. Faça um algoritmo que lê dois números, e verifica se o primeiro número é maior ou igual ao segundo número. 
+# Se for, escrever "O número {valor do número 1} é maior ou igual ao número {valor do número 2}". Se não, escrever "O número {valor do número 1} é menor ou igual ao número {valor do número 2}".
+# n1 = int(input("Digite um numero: "))
+# n2 = int(input("Digite um numero: "))
+
+# if n1 == n2:
+#     print("São IGUAIS!")
+# elif n1 >= n2:
+#     print(f'O {n1} é MAIOR que o {n2}')
+# elif n1 <= n2:
+#     print(f'O {n1} é MENOR que o {n2}')
+
+# Q3. Faça um algoritmo que lê dois números, e verifica se o primeiro número é menor ou igual ao segundo número. Se for, escrever "O número {valor do número 1} é menor ou igual ao número {valor do número 2}". Se não, escrever "O número {valor do número 1} é maior ou igual ao número {valor do número 2}".
+
+# n1 = int(input("Digite um numero: "))
+# n2 = int(input("Digite um numero: "))
+# if n1 <= n2:
+#     print(f'O {n1} é menor que o {n2}')
+# else:
+#     print(f"O número {n1} é maior ou igual ao número {n2}")
+
+# Q4. Faça um algoritmo que lê dois números, e verifica se o primeiro número é igual ao segundo número. Se forem iguais, escrever "Números iguais". Se não, escrever "Números diferentes".
+
+# n1 = int(input("Digite um numero: "))
+# n2 = int(input("Digite umnumero: "))
+
+# if n1 == n2:
+#     print(f'{n1} é igual a {n2}')
+# else:
+#     print("Numeros diferentes!")
+
+# Q5. Faça um algoritmo que irá fazer o cadastro de usuário. Para isso, solicita o nome do usuário, e a senha. Depois, pede que o usuário confirme novamente a senha. O sistema deverá verificar se as senhas digitadas são iguais. Se forem iguais, informar que o cadastro está correto. Se não forem iguais, informar que o cadastro não foi realizado porque as senhas não conferem.
+
+# usuario = str(input("Digite seu nome: "))
+# senha = int(input("Digite sua senha: "))
+# newSenha = int(input("Digite sua senha novamente: "))
+
+# if senha == newSenha:
+#     print(f'Seja bem-vindo, {usuario}')
+# else:
+#     print("Senha Incorreta!")
+
+# Q6. Elabore um algoritmo para representar um sistema de compra de produtos agrícolas de uma feira, mas que só permite compras à vista.
+
+# compra = str(input("Ola a compra será á vista s/n: "))
+
+# if compra == "s" or compra == "S":
+#     print("Compra APROVADA!")
+# else:
+#     print("Compra NEGADA!")
+
+# Q7. Elabore um algoritmo para representar um sistema de compra de produtos agrícolas de uma feira, mas que só permite realizar a compra, se a pessoa tiver dinheiro para pagar à vista e se estiver com a anuidade de associação de produtor rural em dia. 
+
+# compra = str(input("Olá, a compra será à vista S/N: "))
+
+# if compra == "S" or compra == "s":
+#     anuidade = str(input("A anuidade esta em dia S/N: "))
+#     if anuidade == "S" or anuidade == "s":
+#         print("Compra APROVADA!")
+#     else:
+#         print("Compra NEGADA!")
+# else:
+#     print("Compra NEGADA!")
+
+# Q8. Elabore um algoritmo que solicita duas informações do usuário. A primeira, pergunta se possui bolsa família (S ou N), e a segunda, se possui mais de três filhos (S ou N). Se for contemplado pelo bolsa família e possuir mais de três filhos, deverá retornar Verdadeiro, significando que pode acessar à vaga de cotista
+
+# BF = str(input("Você possui bolsa familia S/N: "))
+# if BF == "S" or BF == "s":
+#     F = str(input("Você possui MAIS de 3 FILHOS S/N: "))
+#     if F == "S" or F == "s":
+#         print("APROVADO!")
+#     else:
+#         print("NEGADO!")
+# else:
+#     print("NEGADO!")
+
+# 
+# Q9. Elabore um algoritmo para que só possa autorizar a entrada na loja, àqueles que estão com a anuidade de associação em dia ou pagar o valor de 25 reais na entrada.
+
+# anuidade = str(input("Você está com a anuidade em dia S/N: "))
+# if anuidade == "S" or anuidade == "s":
+#     print("Entrada LIBERADA!")
+# elif anuidade == "N" or anuidade == "n":
+#     entrada = str(input("Você deseja pagar a entrada S/N: "))
+#     if entrada == "S" or entrada == "s":
+#         print("Entrega LIBERDA!")
+#     else:
+#         print("Entrada NEGADA!")
